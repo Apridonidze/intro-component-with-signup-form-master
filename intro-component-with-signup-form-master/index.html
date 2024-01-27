@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+</head>
+<body>
+  <nav class="container">
+    <div class="container-left">
+     <h1>Learn to code by watching others</h1>
+     <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable.</p> 
+  </div>
+  <div class="container-right">
+    <div class="header"><h3>Try it free 7 days then $20/mo. thereafter</h3></div>
+    <div class="loginCont">
+      <div class="inputCont">
+        <div class="input-head"><input type="text" id="NameInput" placeholder="First Name"><img src="images/icon-error.svg" id="NameErrorImage"></div>
+        <div class="input-error"><span id="NameError"></span></div>
+      </div>
+      <div class="inputCont">
+        <div class="input-head"><input type="text" id="LastNameInput" placeholder="Last Name"><img src="images/icon-error.svg" id="LastNameErrorImage"></div>
+        <div class="input-error"><span id="LastNameError"></span></div>
+      </div>
+      <div class="inputCont">
+        <div class="input-head"><input type="email" id="EmailInput" placeholder="Email Address"><img src="images/icon-error.svg" id="EmailErrorImage"></div>
+        <div class="input-error"><span id="EmailError"></span></div>
+      </div>
+      <div class="inputCont">
+        <div class="input-head"><input type="password" id="PasswordInput" placeholder="Password"><img src="images/icon-error.svg" id="PasswordErrorImage"></div>
+        <div class="input-error"><span id="PasswrodError"></span></div>
+      </div>
+  <button type="submit" id="SubmitBtn">Claim your free trial </button>
+  <span id='span'style="display: flex; gap: 5px;">By clicking the button, you are agreeing to our <b style="color: #ff7978;cursor: pointer;">Terms and Services</span></span>
+</div>
+</nav>
+  <script src="script.js"></script>
+</body>
+</html>
